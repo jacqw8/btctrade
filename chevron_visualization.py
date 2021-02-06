@@ -31,6 +31,7 @@ print(days)
 Days_of_Week = [None,'Sun','Mon','Tues','Wed','Thurs','Fri','Sat']
 ax.scatter(days, bucket_number, gross_sales, color = "orange")
 ax.set_xticklabels(Days_of_Week)
+ax.set_title('Hotdogs Sold Over Time')
 ax.set_xlabel("Day of the Week")
 ax.set_ylabel('Bucket Number')
 ax.set_zlabel('Gross Sales')
