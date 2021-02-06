@@ -26,8 +26,7 @@ for i in range(len(days)):
         days[i] = 7
     else:
         days[i] = days[i]%7
-
-print(days)
+        
 Days_of_Week = [None,'Sun','Mon','Tues','Wed','Thurs','Fri','Sat']
 ax.scatter(days, bucket_number, gross_sales, color = "orange")
 ax.set_xticklabels(Days_of_Week)
